@@ -1,0 +1,7 @@
+{
+    "name": "vith/process-bug",
+    "require": {
+        "symfony/process": "~2.6",
+        "twbs/bootstrap": "~3.3"
+    }
+}
