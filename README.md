@@ -6,7 +6,12 @@ This only happens on Arch Linux.
 
 It won't happen if you rebuild the nodejs package from ABS without `--shared-libuv` passed to `./configure`.
 
-## Setup
+## System Dependencies
+This will require PHP, composer, nodejs, and npm.
+
+On Arch Linux: `sudo pacman -Sy php php-composer nodejs`
+
+## Test Setup
 ```shell
 git clone https://github.com/vith/process-bug.git
 cd process-bug
