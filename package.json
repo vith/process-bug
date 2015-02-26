@@ -1,0 +1,22 @@
+{
+  "name": "process-bug",
+  "version": "1.0.0",
+  "description": "For reasons unknown to me, when using [symfony/Process](https://github.com/symfony/Process) to run [postcss/autoprefixer](https://github.com/postcss/autoprefixer), the output gets truncated.",
+  "main": "test.php",
+  "dependencies": {
+    "autoprefixer": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./test.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vith/process-bug.git"
+  },
+  "author": "vith",
+  "bugs": {
+    "url": "https://github.com/vith/process-bug/issues"
+  },
+  "homepage": "https://github.com/vith/process-bug"
+}

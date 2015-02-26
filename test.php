@@ -83,7 +83,7 @@ function slowcat_test() {
 }
 
 function autoprefixer_test() {
-    $process = make_process('autoprefixer', ['-o', '-', TEST_FILE]);
+    $process = make_process('./node_modules/.bin/autoprefixer', ['-o', '-', TEST_FILE]);
     $process->run();
 
     check_success($process);
